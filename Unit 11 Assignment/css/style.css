@@ -1,0 +1,57 @@
+h1{
+	color: rgb(2, 132, 130);
+}
+h2{
+	color: #ffd700;
+}
+nav{
+	background-color: #808080;
+}
+nav a{
+	background-color: #ffbf00;
+	color: white;
+	padding: 35px;
+	display: block;
+	float: left;
+}
+a:hover{
+	background-color: #ee5f3c;
+}
+footer{
+	background-color: #808080;
+}
+head, footer, p{
+	text-align: center;
+}
+img{
+	height: 100px;
+	width: 75px;
+}
+.board {
+	height: 50%;
+	width: 50%;
+	color: #FF0000;
+	display: inline-block;
+	float: left;
+	
+}
+.card {
+	height: 200px;
+	width: 150px;
+	border: 1px solid #000000;
+	background: #ffff00;
+	border-radius: 10px;
+	float: left;
+	margin: 8%;
+}
+.name{
+	color: #ff0000;
+}
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
